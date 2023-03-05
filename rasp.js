@@ -1,1 +1,0 @@
-cont Day = prompt("dushanba")
