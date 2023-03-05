@@ -20,31 +20,31 @@ console.log(`string text line 1
 string text line 2`);
 "string text line 1
 string text line 2"
-const numberOfSeries = +prompt("Nechta serial ko’rdingiz?", "");
-if (numberOfSeries < "5") {
-  console.log("Kam serial ko'ribsiz");
-} else if (numberOfSeries > 5 && numberOfSeries < 10) {
-  console.log("Siz klaasik tomishabin ekansiz");
-} else if (numberOfSeries > 15) {
-  console.log("Siz serialchi zvezda ekansiz");
-}
-const seriesDB = {
-  const: numberOfSeries,
-  series: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
-for (let i = 0; i < 2; i++) {
-  const a = prompt("Oxirgi ko'rgan serialingiz"),
-    b = prompt("Nechi baho berasiz");
-  if (a != null && a != "" && b != null && b != "") {
-    console.log("done");
-  } else {
-    console.log("404");
-    i--;
-  }
-  seriesDB.series[a] = b;
-}
+// const numberOfSeries = +prompt("Nechta serial ko’rdingiz?", "");
+// if (numberOfSeries < "5") {
+//   console.log("Kam serial ko'ribsiz");
+// } else if (numberOfSeries > 5 && numberOfSeries < 10) {
+//   console.log("Siz klaasik tomishabin ekansiz");
+// } else if (numberOfSeries > 15) {
+//   console.log("Siz serialchi zvezda ekansiz");
+// }
+// const seriesDB = {
+//   const: numberOfSeries,
+//   series: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
+// for (let i = 0; i < 2; i++) {
+//   const a = prompt("Oxirgi ko'rgan serialingiz"),
+//     b = prompt("Nechi baho berasiz");
+//   if (a != null && a != "" && b != null && b != "") {
+//     console.log("done");
+//   } else {
+//     console.log("404");
+//     i--;
+//   }
+//   seriesDB.series[a] = b;
+// }
 
-console.log(seriesDB);
+// console.log(seriesDB);
